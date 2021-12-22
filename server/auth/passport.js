@@ -2,7 +2,7 @@ const passport = require('passport'),
     LocalStrategy = require('passport-local').Strategy,
     User = require('../db/Schema').User,
     shortid = require('shortid');
- 
+
 passport.serializeUser( (user, cb) => {
     cb(null, user);
 });
