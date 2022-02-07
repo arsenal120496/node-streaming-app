@@ -1,4 +1,4 @@
-const config_port = require('../../env')
+const config_port = require('../../env');
 
 const config = {
     server: {
